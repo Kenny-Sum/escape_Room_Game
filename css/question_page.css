@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#question_screen{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    text-align: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 180px;
+}
+
+#question_screen, p{
+    font-size: 20px;
+}
+
+#question_btn_menu{
+    display: flex;
+    gap: 50px;
+}
+
+.question_btn{
+    height: 50px;
+    width: 200px;
+}
+
+.question_btn:hover{
+    background-color: #00BFFF;
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}

@@ -1,4 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
 #title{
     display: flex;
     justify-content: center;
+}
+
+#screen{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    text-align: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 800px;
+    padding: 20px;
+}
+
+#screen, p{
+    font-size: 20px;
 }
